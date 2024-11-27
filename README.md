@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# سیستم مدیریت کتابخانه
+
+یک پروژه ساده برای مدیریت کتابخانه با استفاده از فریم‌ورک Laravel. این پروژه به شما اجازه می‌دهد تا با مفاهیم مختلف Laravel مانند مسیریابی، کنترلرها، مدل‌ها، احراز هویت، و API کار کنید.
+
+## ویژگی‌ها
+- **مدیریت کاربران**: ثبت‌نام، ورود، و نقش‌های مختلف (مدیر و کاربر).
+- **مدیریت کتاب‌ها**: افزودن، ویرایش، حذف و مشاهده کتاب‌ها.
+- **رزرو کتاب**: کاربران می‌توانند کتاب‌ها را رزرو کرده و تاریخ بازگشت مشخص شود.
+- **داشبورد مدیریتی**: نمایش آمارهای کلیدی برای مدیر.
+- **API ساده**: دسترسی به اطلاعات کتاب‌ها و رزروها.
+
+---
+
+## پیش‌نیازها
+- PHP >= 8.1
+- Composer
+- MySQL یا هر دیتابیس پشتیبانی‌شده توسط Laravel
+- Node.js برای نصب پکیج‌های Frontend (اختیاری)
+
+---
+
+## مراحل نصب
+
+### 1. کلون کردن پروژه
+```bash
+git clone https://github.com/your-repo/library-system.git
+cd library-system
+```
+
+---
+## نصب وابستگی‌ها
+```bash
+composer install
+npm install
+```
+>>>>>>> 47eda87c80f4af8f3b1ec63f1cc58af087ba851e
