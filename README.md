@@ -1,2 +1,35 @@
-# Book-reservation
-A simple library management project using the Laravel framework. This project allows you to work with various Laravel concepts such as routing, controllers, models, authentication, and API.
+# سیستم مدیریت کتابخانه
+
+یک پروژه ساده برای مدیریت کتابخانه با استفاده از فریم‌ورک Laravel. این پروژه به شما اجازه می‌دهد تا با مفاهیم مختلف Laravel مانند مسیریابی، کنترلرها، مدل‌ها، احراز هویت، و API کار کنید.
+
+## ویژگی‌ها
+- **مدیریت کاربران**: ثبت‌نام، ورود، و نقش‌های مختلف (مدیر و کاربر).
+- **مدیریت کتاب‌ها**: افزودن، ویرایش، حذف و مشاهده کتاب‌ها.
+- **رزرو کتاب**: کاربران می‌توانند کتاب‌ها را رزرو کرده و تاریخ بازگشت مشخص شود.
+- **داشبورد مدیریتی**: نمایش آمارهای کلیدی برای مدیر.
+- **API ساده**: دسترسی به اطلاعات کتاب‌ها و رزروها.
+
+---
+
+## پیش‌نیازها
+- PHP >= 8.1
+- Composer
+- MySQL یا هر دیتابیس پشتیبانی‌شده توسط Laravel
+- Node.js برای نصب پکیج‌های Frontend (اختیاری)
+
+---
+
+## مراحل نصب
+
+### 1. کلون کردن پروژه
+```bash
+git clone https://github.com/your-repo/library-system.git
+cd library-system
+```
+
+---
+## نصب وابستگی‌ها
+```bash
+composer install
+npm install
+```
